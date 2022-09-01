@@ -1,0 +1,22 @@
+body{
+    background: rgb(194, 244, 249);
+    background-image: url('img/jerry.jpg');
+    background-size: 300px;
+    background-repeat:no-repeat; 
+    background-position: center; 
+    background-attachment: fixed;
+    font-family: monospace;
+
+}
+p {
+    color:darkslateblue;
+    background-color: darkkhaki;
+    font-family: monospace;
+    padding: 50px;
+}
+.jerry{
+color:blue;
+background-color:darkorange;
+font-size:xx-large;
+margin: 30px;
+}

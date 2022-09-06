@@ -1,3 +1,23 @@
 body {
     background-color: darksalmon;
 }
+
+.house {
+  background-image: url("/journals/img/house.jpg");
+}
+
+fieldset {
+    white-space: normal;
+    box-sizing: border-box;
+    display:flex;
+    object-position: top;
+    width: 50px;
+}
+
+.right {
+    text-align: right;
+}
+
+.help {
+    border-style:double;
+}

@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    margin:0px;
+    background-color:bisque;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.content{
+    background-color: darkolivegreen;
+    color:aliceblue;
+    width: 200px;
+    height:200px;
+    padding: 10px;
+    border:10px solid palegreen;
+    margin:50px auto;
+    text-align: center;
+    text-decoration:line-through;
+
+}
+
+.border{
+    background-color: darkolivegreen;
+    color:aliceblue;
+    width: 100px;
+    height:100px;
+    padding: 10px;
+    border:20px solid palegreen;
+    margin:200px;
+    box-sizing: border-box;
+}
+
+.boxmod {
+    font-size: 700px;
+}

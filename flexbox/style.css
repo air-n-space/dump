@@ -15,7 +15,7 @@ body {
     padding:20px;
 }
 
-/* .upper{
+.upper{
     background: lightpink;
     height:25%;
     display:flex;
@@ -24,13 +24,13 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
-} */
+}
 
-/* .upper-item{
+.upper-item{
     width: 100%;
     background: yellow;
     height:100%;
-} */
+}
 
 .lower{
     background: lightpink;

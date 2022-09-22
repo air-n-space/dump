@@ -7,7 +7,7 @@ body {
 }
 
 .main-container{
-    background: lightgreen;
+    background: rgb(210,239,249);
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -15,7 +15,7 @@ body {
     padding:20px;
 }
 
-.upper{
+/* .upper{
     background: lightpink;
     height:25%;
     display:flex;
@@ -24,13 +24,13 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
-}
+} */
 
-.upper-item{
+/* .upper-item{
     width: 100%;
     background: yellow;
     height:100%;
-}
+} */
 
 .lower{
     background: lightpink;
@@ -46,7 +46,7 @@ body {
 .divide-left{
     background:lightyellow;
     height:100%;
-    width:50%;
+    width:100%;
     display: flex;
     align-items: center;
     justify-content: center
@@ -64,7 +64,7 @@ body {
 .divide-right{
     background:yellow;
     height:100%;
-    width:50%;
+    width:100%;
     align-items: stretch;
     padding: 10px;
     display:flex;

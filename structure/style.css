@@ -1,0 +1,890 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Spectral', serif;
+    color:rgb(0,87,117)
+}
+
+.main-container{
+    background: rgb(255,155,23);
+    height: 100vh;
+    width: 100vw;
+    display: flexbox;
+    flex-direction: column; 
+    padding:20px;
+    border: 6px rgb(210,239,249) solid;
+}
+
+.index{
+    background-image: url(house-07.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 145%;
+}
+
+.upper{
+    background: lightpink;
+    height:25%;
+    display:flex;
+    gap:10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.upper-item{
+    width: 100%;
+    background: yellow;
+    height:100%;
+}
+
+.lower{
+    /* background: rgb(0,87,117); */
+    height: 75%;
+    width: 100%;
+    display:flex;
+    padding:5px;
+    padding-top:5px;
+    display: flex;
+    flex-direction: row;
+
+}
+/* .bottom{
+    background: rgb(210,239,249);
+    width: 100%;
+    height: 20%;
+    display: flexbox;
+    flex-direction: column; 
+} */
+.divide-left{
+    background:rgb(255,155,23);
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.center-box{
+    background:rgb(255,155,23);
+    height:30%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divide-right{
+    background:yellow;
+    height:100%;
+    width:50%;
+    align-items: stretch;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .lower-item{
+    height:24%;
+    width:100%;
+    background: violet;
+} */
+
+/* img{
+    border: 2px rgb(0,87,117) solid;
+
+} */
+
+.step{
+    position: fixed;
+    bottom: 2%;
+    right: 48%;
+}
+
+.text{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(0,87,117);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(0,87,117);
+  }
+
+  .start{
+    position: fixed;
+    bottom: 2%;
+    left: 2%;
+  }
+
+.arrive{
+    position: fixed;
+    bottom: 2%;
+    left: 8%;  
+}
+
+.arrival{
+    position: fixed;
+    top: 20%;
+    left:44%;
+}
+
+.over{
+    position: fixed;
+    top: 26%;
+    left:48%;
+}
+
+.end{
+    position: fixed;
+    top: 25%;
+    left:40%;  
+    font-size: 144px;
+}
+.one{
+    height:25%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.two{
+    height:28%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.three{
+    height:30%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.four{
+    height:32%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.five{
+    height:34%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.six{
+    height:36%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.seven{
+    height:38%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.eight{
+    height:39%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.nine{
+    height:41%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.ten{
+    height:43%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.eleven{
+    height:45%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.twelve{
+    height:47%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.thirteen{
+    height:49%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.fourteen{
+    height:50%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.fifteen{
+    height:52%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.sixteen{
+    height:54%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.seventeen{
+    height:56%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.eighteen{
+    height:58%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.nineteen{
+    height:60%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.twenty{
+    height:61%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.twentyone{
+    height:63%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.twentytwo{
+    height:65%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.twentythree{
+    height:67%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.twentyfour{
+    height:69%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.twentyfive{
+    height:70%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.twentysix{
+    height:72%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.twentyseven{
+    height:74%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.twentyeight{
+    height:76%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.twentynine{
+    height:78%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.thirty{
+    height:80%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.thirtyone{
+    height:81%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.thirtytwo{
+    height:83%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.thirtythree{
+    height:85%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.thirtyfour{
+    height:87%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.thirtyfive{
+    height:89%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.thirtysix{
+    height:90%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.thirtyseven{
+    height:92%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.thirtyeight{
+    height:94%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.thirtynine{
+    height:96%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.fourty{
+    height:98%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.fourtyone{
+    height:100%;
+    border: .5px rgb(0,87,117) solid;
+}
+
+.fourtytwo{
+    background:rgb(255,155,23);
+    height:31%;
+    width: 31%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourtythree{
+    background:rgb(255,155,23);
+    height:32%;
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourtyfour{
+    background:rgb(255,155,23);
+    height:33%;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourtyfive{
+    background:rgb(255,155,23);
+    height:34%;
+    width: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourtysix{
+    background:rgb(255,155,23);
+    height:35%;
+    width:35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourtyseven{
+    background:rgb(255,155,23);
+    height:36%;
+    width: 36%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourtyeight{
+    background:rgb(255,155,23);
+    height:37%;
+    width: 37%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourtynine{
+    background:rgb(255,155,23);
+    height:38%;
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fifty{
+    background:rgb(255,155,23);
+    height:39%;
+    width: 39%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fiftyone{
+    background:rgb(255,155,23);
+    height:40%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fiftytwo{
+    background:rgb(255,155,23);
+    height:41%;
+    width: 41%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fiftythree{
+    background:rgb(255,155,23);
+    height:42%;
+    width: 42%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fiftyfour{
+    background:rgb(255,155,23);
+    height:43%;
+    width: 43%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fiftyfive{
+    background:rgb(255,155,23);
+    height:44%;
+    width: 44%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fiftysix{
+    background:rgb(255,155,23);
+    height:45%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fiftyseven{
+    background:rgb(255,155,23);
+    height:46%;
+    width: 46%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fiftyeight{
+    background:rgb(255,155,23);
+    height:47%;
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fiftynine{
+    background:rgb(255,155,23);
+    height:48%;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sixty{
+    background:rgb(255,155,23);
+    height:49%;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six-1{
+    background:rgb(255,155,23);
+    height:50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six-2{
+    background:rgb(255,155,23);
+    height:51%;
+    width: 51%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six-3{
+    background:rgb(255,155,23);
+    height:52%;
+    width: 52%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six-4{
+    background:rgb(255,155,23);
+    height:53%;
+    width: 53%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six-5{
+    background:rgb(255,155,23);
+    height:54%;
+    width: 54%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six-6{
+    background:rgb(255,155,23);
+    height:55%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six-7{
+    background:rgb(255,155,23);
+    height:56%;
+    width: 56%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six-8{
+    background:rgb(255,155,23);
+    height:57%;
+    width: 57%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six-9{
+    background:rgb(255,155,23);
+    height:58%;
+    width: 58%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sev{
+    background:rgb(255,155,23);
+    height:59%;
+    width: 59%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sev-1{
+    background:rgb(255,155,23);
+    height:60%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sev-2{
+    background:rgb(255,155,23);
+    height:61%;
+    width: 61%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sev-3{
+    background:rgb(255,155,23);
+    height:62%;
+    width: 62%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sev-4{
+    background:rgb(255,155,23);
+    height:63%;
+    width: 63%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sev-5{
+    background:rgb(255,155,23);
+    height:64%;
+    width: 64%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sev-6{
+    background:rgb(255,155,23);
+    height:65%;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sev-7{
+    background:rgb(255,155,23);
+    height:66%;
+    width: 66%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sev-8{
+    background:rgb(255,155,23);
+    height:67%;
+    width: 67%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sev-9{
+    background:rgb(255,155,23);
+    height:68%;
+    width: 68%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eighty{
+    background:rgb(255,155,23);
+    height:69%;
+    width: 69%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eight-1{
+    background:rgb(255,155,23);
+    height:70%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eight-2{
+    background:rgb(255,155,23);
+    height:71%;
+    width: 71%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eight-3{
+    background:rgb(255,155,23);
+    height:72%;
+    width: 72%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eight-4{
+    background:rgb(255,155,23);
+    height:73%;
+    width: 73%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eight-5{
+    background:rgb(255,155,23);
+    height:74%;
+    width: 74%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eight-6{
+    background:rgb(255,155,23);
+    height:75%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eight-7{
+    background:rgb(255,155,23);
+    height:76%;
+    width: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eight-8{
+    background:rgb(255,155,23);
+    height:77%;
+    width: 77%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eight-9{
+    background:rgb(255,155,23);
+    height:78%;
+    width: 78%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ninety{
+    background:rgb(255,155,23);
+    height:79%;
+    width: 79%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nine-1{
+    background:rgb(255,155,23);
+    height:80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nine-2{
+    background:rgb(255,155,23);
+    height:81%;
+    width: 81%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nine-3{
+    background:rgb(255,155,23);
+    height:82%;
+    width: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nine-4{
+    background:rgb(255,155,23);
+    height:83%;
+    width: 83%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nine-5{
+    background:rgb(255,155,23);
+    height:84%;
+    width: 84%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nine-6{
+    background:rgb(255,155,23);
+    height:85%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nine-7{
+    background:rgb(255,155,23);
+    height:86%;
+    width: 86%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nine-8{
+    background:rgb(255,155,23);
+    height:87%;
+    width: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nine-9{
+    background:rgb(255,155,23);
+    height:88%;
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hundred{
+    background:rgb(255,155,23);
+    height:89%;
+    width: 89%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

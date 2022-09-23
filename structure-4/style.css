@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: rgb(210,239,249);
+    background: -moz-radial-gradient(center, rgb(210,239,249) 0%, rgb(255,155,23) 100%, rgb(255,155,23) 100%);
+    background: -webkit-radial-gradient(center, rgb(210,239,249) 0%, rgb(255,155,23) 100%, rgb(255,155,23) 100%);
+    background: radial-gradient(ellipse at center, rgb(210,239,249) 0%, rgb(255,155,23) 100%, rgb(255,155,23) 100%);
+    }
+
+.containter {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: auto;
+}
+
+.hypnosis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1080px;
+    position: relative;
+    animation: size 90s;
+    animation-duration: 90s;
+    animation-timing-function: linear;
+    /* animation-delay: 0s; */
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: size;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.revolution {
+    animation: revolve 90s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 45s;
+}
+
+.rect-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 192px;
+    height: 108px;
+    margin: 0 auto;
+    animation-name:spin;
+    animation-duration: 90s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    }
+
+
+    .rect-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 384px;
+        height: 216px;
+        margin: 0 auto;
+        outline: 6px solid rgb(255,155,23);
+        animation-name:spin;
+        animation-duration: 90s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
+        }
+
+        .rect-3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 576px;
+            height: 324px;
+            margin: 0 auto;
+            outline: 6px solid rgb(255,155,23);
+            animation-name:spin;
+            animation-duration: 90s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-delay: 4s;
+            }
+
+            .rect-4{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 768px;
+                height: 432px;
+                margin: 0 auto;
+                outline: 6px solid rgb(255,155,23);
+                animation-name:spin;
+                animation-duration: 90s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+                animation-delay: 6s;
+                }
+
+                .rect-5{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 960px;
+                    height: 540px;
+                    margin: 0 auto;
+                    outline: 6px solid rgb(255,155,23);
+                    animation-name:spin;
+                    animation-duration: 90s;
+                    animation-timing-function: linear;
+                    animation-iteration-count: infinite;
+                    animation-delay: 8s;
+                    }  
+                    .rect-6{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 1152px;
+                        height: 648px;
+                        margin: 0 auto;
+                        outline: 6px solid rgb(255,155,23);
+                        animation-name:spin;
+                        animation-duration: 90s;
+                        animation-timing-function: linear;
+                        animation-iteration-count: infinite;
+                        animation-delay: 10s;
+                        }    
+                        .rect-7{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 1344px;
+                            height: 756px;
+                            margin: 0 auto;
+                            outline: 6px solid rgb(255,155,23);
+                            animation-name:spin;
+                            animation-duration: 90s;
+                            animation-timing-function: linear;
+                            animation-iteration-count: infinite;
+                            animation-delay: 12s;
+                            }    
+                            .rect-8{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 1536px;
+                                height: 864px;
+                                margin: 0 auto;
+                                outline: 6px solid rgb(255,155,23);
+                                animation-name:spin;
+                                animation-duration: 90s;
+                                animation-timing-function: linear;
+                                animation-iteration-count: infinite;
+                                animation-delay: 14s;
+                                }   
+                                .rect-9{
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    width: 1728px;
+                                    height: 972px;
+                                    margin: 0 auto;
+                                    outline: 6px solid rgb(255,155,23);
+                                    animation-name:spin;
+                                    animation-duration: 90s;
+                                    animation-timing-function: linear;
+                                    animation-iteration-count: infinite;
+                                    animation-delay: 16s;
+                                    }    
+                                    .rect-10{
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        width: 1920px;
+                                        height: 1080px;
+                                        margin: 0 auto;
+                                        outline: 6px solid rgb(255,155,23);
+                                        animation-name:spin;
+                                        animation-duration: 90s;
+                                        animation-timing-function: linear;
+                                        animation-iteration-count: infinite;
+                                        animation-delay: 18s;
+                                        }       
+
+    @keyframes size {
+        0% {
+          transform: scale(1);
+        }
+      
+        /* 50% {
+          transform: scale(1.3);
+        } */
+      
+        100% {
+          transform: scale(5);
+        }
+      }
+      
+    .doors {
+        width:195px;
+        height: 111px;
+      }
+
+      /* <img src="bw.png"> */
+
+      .circle-1{
+        height:40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: rgb(51,153,0);
+        position: fixed;
+        left:5%;
+        bottom: 5%;
+        filter:brightness(120%);
+        filter:blur(3px);
+      }
+    
+      .circle-2{
+        height:40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: rgb(255,155,23);
+        position: fixed;
+        left:10%;
+        bottom: 5%;
+        filter:brightness(120%);
+        filter:blur(3px);
+
+
+      }
+
+      .circle-3{
+        height:40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: rgb(0,87,117);
+        position: fixed;
+        left:15%;
+        bottom: 5%;
+        filter:brightness(120%);
+        filter:blur(3px);
+
+
+      }
+
+      .circle-4{
+        height:40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: rgb(225,221,80);
+        position: fixed;
+        left:20%;
+        bottom: 5%;
+        filter:brightness(120%);
+        filter:blur(3px);
+
+      }
+
+      

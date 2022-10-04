@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: palevioletred;
+    animation-name: back;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.flex{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    background: yellowgreen;
+    border-radius: 50%;
+    animation-name: pulse;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.square{
+    width: 300px;
+    height: 300px;
+    background: blueviolet;
+    animation: spin 6s linear infinite;
+}
+
+.mover{
+    height: 30px;
+    width: 200px;
+    background: palevioletred;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    animation: move 4s infinite;
+}
+
+.ged{
+    background: azure;
+    width: 50px;
+    height: 80px;
+    border-radius: 50% 50% 35% 35%;
+    animation: egg-change 2s infinite alternate linear;
+
+}
+
+.shell{
+    animation: spin 8s linear infinite;
+    position: fixed;
+    top: 0%;
+    left:0%;
+    opacity: 0;
+    animation: egg-move 5s infinite alternate ease-in-out,
+                spin 6s linear infinite,
+                show .1s 3s forwards;
+}
+
+@keyframes pulse{
+    0%{
+        background: yellowgreen;
+        transform: scale(1);
+    }
+    100%{
+        background: aliceblue;
+        transform: scale(2);
+    }
+}
+
+@keyframes back{
+    0%{
+        background: palevioletred;
+    }
+    100%{
+        background: whitesmoke;
+    }
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0);
+        filter: blur(0px);
+    }
+    50%{
+        filter: blur(10px);
+    }
+    100%{
+        transform: rotate(360deg);
+        filter: blur(0px);
+    }
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateX(100vw);
+    }
+}
+
+@keyframes egg-move{
+    0%{
+        top:0;
+        left:0;
+    }
+
+    100%{
+        top:90vh;
+        left:90vw;    
+    }
+}
+
+@keyframes egg-change{
+    0%{
+        background: azure;
+        transform: scale(1);
+    }
+    100%{
+        background: yellowgreen;
+        transform: scale(1.5);
+
+    }
+}
+
+@keyframes show{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

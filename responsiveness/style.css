@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    background: aliceblue;
+    transition: background-color 3s;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color:mistyrose;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+main nav, main div, footer{
+    background-color: mistyrose;
+    padding: 10px;
+}
+
+nav, .details{
+    width: 25%;
+}
+
+.center{
+    width: 50%;
+}
+
+footer{
+   text-align: center;
+}
+
+.secret{
+    text-align: center;
+    background-color: brown;
+    font-size: 20px;
+    border-radius: 20%;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: blue; 
+    }
+    main{
+        flex-wrap: wrap;
+    }
+    nav, .center, .details{
+        width: 100%;
+    }
+    .secret{
+        display:block;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        background-color:cornflowerblue;
+        font-size: 200%;
+    }
+}
+
+/* min width = modile width first design 
+    scalable 
+    contraint --> sites look all the same, giant phone 
+    
+    Max width = desktop first
+        more work to make responsive 
+        more diverse forms and layers  
+*/

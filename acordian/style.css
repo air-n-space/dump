@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5%;
+    font-family: 'Spectral', serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+    background-color: floralwhite;
+}
+
+.holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.main-container{
+    height: 720px;
+    width:378px;
+    display: flex;
+    flex-direction: column; 
+    border:3px black solid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    position:relative;
+}
+
+.inner-container{
+    height: 640px;
+    width:360px;
+    display: flex;
+    flex-direction: column; 
+    border:3px black solid;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: mistyrose;
+}
+
+.one{
+    height: 15.333%;
+    width: 100%;
+    border: 3px yellow solid;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sms{
+    height: 90%;
+    width: 90%;
+    background-color:cornflowerblue;
+    justify-content:flex-start;
+    align-items: center;
+    padding:1%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 8%;
+    border-bottom-left-radius: 8%;
+    border-bottom-right-radius: -5%;
+}
+
+.text{
+    height:fit-content;
+    width: fit-content;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.text-line{
+    height: 8%;
+    width: 100%;
+    border: 3px red solid;
+    padding: 1%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.line{
+    height: 95%;
+    width: 80%;
+    border: 3px green solid;
+    border-radius: 5%;
+    background-color: rgb(255, 169, 192);
+}
+
+.send{
+    width: 10%;
+    height:95%;
+    border:3px orange solid;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+}
+
+
+
+
+
+
+
+
+
+/* .two{
+    height: 16.7%;
+    width: 100%;
+    border: 3px blue solid;
+    padding: 8%;
+}
+
+.three{
+    height: 16.7%;
+    width: 100%;
+    border: 3px green solid;
+    padding: 8%;
+}
+
+.four{
+    height: 16.7%;
+    width: 100%;
+    border: 3px yellow solid;
+    padding: 8%;
+}
+
+.five{
+    height: 16.7%;
+    width: 100%;
+    border: 3px orange solid;
+    padding: 8%;
+}
+
+.six{
+    height: 16.7%;
+    width: 100%;
+    border: 3px purple solid;
+    /* padding: 8%; */
+
+

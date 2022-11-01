@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            javascript
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="../sun-smaller.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+<!-- first we set up the button that is triggering our javascript -->
+<!-- note that the element doesn't need to be a <button> to work -->
+    <button onclick="boxToggle()">Click me...</button>
+
+    <!-- the box that we will be altering with our javascript -->
+    <div id="box" class="box">
+        tummy hurty
+    </div>
+
+    <div id="object" class="object">
+
+    </div>
+
+    <script>
+        function boxToggle() {
+          var box = document.getElementById("box");
+          var object = document.getElementById("object");
+
+          box.classList.toggle("active");
+          object.classList.toggle("spin");
+          document.body.classList.add("dark");
+        }
+        </script>
+
+    </body>
+</html>
